@@ -63,9 +63,3 @@ You can easily extend or customize this game:
 -  Anyone looking to build a fun and educational terminal-based game
 
 ---
-
-##  File Structure
-hangman_game/
- 1) hangman.py # Main game logic
- 2) stages.py # ASCII art for hangman states
- 3) README.md # Project description
