@@ -1,11 +1,11 @@
 # 🎮 CodeAlpha Task: Hangman Game
 
-## 📝 Project Overview
+## Project Overview
 **Hangman Game** is a simple and interactive command-line Python game designed especially for beginner programmers. The main objective is to guess a hidden word, one letter at a time, within a limited number of attempts, also known as **lives**.
 
 ---
 
-## 🧠 Game Concept
+##  Game Concept
 
 A word is randomly selected from a list of family member names:
 `"Ramdas"`, `"Roshani"`, `"Samiksha"`, `"Bhavini"`, `"Janhvi"`, `"Arohi"`, and `"Hardhika"`.
