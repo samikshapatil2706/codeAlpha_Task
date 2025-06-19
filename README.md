@@ -1,5 +1,53 @@
-# codeAlpha_Task
-<h1>Hangman Game</h1>h1><br>
-This Python-based Hangman Game is a simple, interactive command-line game designed for beginner programmers. The objective of the game is to guess a hidden word, one letter at a time, within a limited number of attempts (lives). In this version, the words are names of family members such as "Ramdas", "Roshani", "Samiksha", "Bhavini", "Janhvi", "Arohi", and "Hardhika". When the game starts, a word is randomly selected from the list, and the player is shown blank spaces representing each letter. The player then inputs letter guesses one by one. If the guessed letter is correct, it is revealed in its correct position(s); otherwise, the player loses one life. The game visually displays progress using ASCII art stored in a separate module called stages.py, which represents the hangman figure based on the number of incorrect guesses. The player wins if all letters are guessed correctly before running out of lives; otherwise, they lose and the correct word is revealed.
+🎮 CodeAlpha Task: Hangman Game
+📝 Project Overview
+Hangman Game is a simple and interactive command-line Python game designed especially for beginner programmers. The main objective is to guess a hidden word, one letter at a time, within a limited number of attempts, also known as lives.
 
-This game also includes a more advanced structure with a hangman_game() function, which allows the player to play multiple rounds using all the words from the list. After each round, it keeps track of total wins and losses, and prompts the user if they would like to play again. The code uses basic Python features such as loops, functions, conditionals, string manipulation, list operations, and input/output handling, making it an excellent learning project. The game can be easily customized by adding more words or modifying the stages. It is a fun and educational project for anyone looking to build their programming skills with a practical and enjoyable application.
+🧠 Game Concept
+🎯 A word is randomly selected from a list of family member names:
+"Ramdas", "Roshani", "Samiksha", "Bhavini", "Janhvi", "Arohi", and "Hardhika".
+
+❓ The word is initially hidden and displayed as blank underscores (_), one for each letter.
+
+👤 The player guesses one letter per turn:
+
+✅ If the letter is correct, it’s revealed in its correct position(s).
+
+❌ If the letter is wrong, the player loses a life.
+
+🪓 The game visually shows progress using ASCII art, stored in a separate Python file called stages.py, which represents the hangman figure depending on remaining lives.
+
+🏆 The player wins if they guess all the letters correctly before lives run out.
+
+💀 The player loses if they use all their lives, and the correct word is revealed.
+
+🔁 Extended Features
+This version includes a more advanced structure using a hangman_game() function, which allows:
+
+🔄 Multiple rounds of play using all words in the list.
+
+📊 Tracking total wins and losses across rounds.
+
+🗨️ Prompting the user if they wish to play again after each round.
+
+🛠️ Python Concepts Used
+This project helps reinforce important Python programming concepts:
+
+🔁 Loops (while, for)
+
+📦 Functions and modular code (def, import)
+
+🔡 String and list operations
+
+📥 User input and output handling
+
+🧪 Conditional statements (if, else)
+
+🧩 Customization
+You can easily extend or customize this game:
+
+➕ Add more words to the list
+
+🎨 Modify the ASCII art in stages.py
+
+🛡️ Add features like difficulty levels or hints
+
